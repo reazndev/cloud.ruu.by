@@ -1,0 +1,206 @@
+❯ Create a simple home page for my own personal selfhosted cloud.
+
+  It should say in the center using italic playright font from google fonts:
+  "Welcome to Ruby Cloud"
+  and then below it should say in a sans serif font of your choice "Your
+  unreliable BUT extraordinarily fun cloud solution.
+
+
+  Then the user should be able to scroll and cards should reveal with a
+  scrolling aniation (reveal on scroll) there should be text in the cards. the
+  cards should have a 18px border radius.
+
+  The text:
+
+  "Multiple services such as Immich, Linkwarden, Rybbit etc" (for this one
+  prhaes it better and add some more fitting text, dont make up stuff we host
+  besides that)
+
+  "All servers are located in Switzerland and are compliant to the Swiss Laws"
+
+  "Using only open source tools"
+
+  "90% reliable, but who needs those 10% when in a hurry right?"
+
+  then below when the usre scrolls there should be a text effect. There should
+  be text BIG on the left side of the screen, reaching to the center.
+
+  It should be grayed out but when the user scrolls down the scroll is hijacked
+  and the words turn white on scroll. (for each scroll one word more) use
+  adjacent libraries for this.
+
+  The text should be: "In a world obsessed with uptime and reliability, we
+  proudly offer something different: unmatched suspense.
+  With Ruby Cloud, every login is an adventure. Will your files be there? Will
+  the server respond? Nobody knows—not even us! Our impressive 95% uptime means
+  there's always that thrilling 5% chance your data is currently enjoying an
+  unexpected vacation.
+  Think of it as Russian roulette for the digital age. One moment you're
+  accessing your precious files, the next moment... well, let's just say
+  spontaneity is our specialty. Some call it unstable. We call it living on the
+  edge."
+
+
+  Use this color scheme:
+
+  primary background: 272728
+  primary text: d3d0cb
+  accent: #9FB1BC
+  darker accent: 6e8898
+
+
+  General design guidelines: Use a hyper modern design language, use border
+  radius for cards. the focus is on a simple, minimal yet elegant website. Add a
+  modern footer, make some data for it up.
+
+  Use these styles for the footer: use tis
+  data, just for the styles)
+/* Footer Styling */
+.footer {
+  background-color: #000;
+  padding: 40px 0;
+  margin-top: 120px;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icon {
+  color: #666;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-column h3 {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+      {/* Footer */}
+
+      <footer className="footer" style={{marginBottom: '-60px'}}>
+
+        <div className="footer-content">
+
+          <div className="footer-brand">
+
+            <Link to="/" className="footer-logo">大家 Dajia.lol</Link>
+
+            <p className="footer-description">Create modern, feature-rich biolinks with a few clicks.</p>
+
+            <div className="footer-social">
+
+              <a href="mailto:contact@dajia.lol" className="social-icon"><MdEmail /></a>
+
+              <a href="https://discord.gg/dhNXtEabMZ" className="social-icon"><FaDiscord /></a>
+
+              <a href="https://bsky.app/profile/dajia.lol" className="social-icon"><SiBluesky /></a>
+
+              <a href="https://github.com/Dajialol" className="social-icon"><FaGithub /></a>
+
+            </div>
+
+            <p className="footer-copyright">Copyright © 2025 dajia.lol. All rights reserved.</p>
+
+          </div>
+
+
+
+          <div className="footer-column">
+
+            <h3>General</h3>
+
+            <Link to="/pricing" className="footer-link">Pricing</Link>
+
+            <Link to="/help" className="footer-link">Need help?</Link>
+
+            <Link to="/team" className="footer-link">Team</Link>
+
+          </div>
+
+
+
+          <div className="footer-column">
+
+            <h3>Legal</h3>
+
+            <Link to="/terms" className="footer-link">Terms of Service</Link>
+
+            <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+
+          </div>
+
+        </div>
+
+      </footer>
+
+    </div>
+

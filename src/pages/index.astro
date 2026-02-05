@@ -1,0 +1,542 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Ruby Cloud - Your Unreliable Cloud Solution">
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">Welcome to Ruby Cloud</h1>
+      <p class="hero-subtitle">Your unreliable <span class="highlight">BUT</span> extraordinarily fun cloud solution.</p>
+    </section>
+
+    <!-- Feature Cards Section -->
+    <section class="cards-section">
+      <div class="cards-container" id="cards-container">
+        <div class="card" data-reveal>
+          <div class="card-glow"></div>
+          <div class="card-border"></div>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Hosting Your Favorites</h3>
+            <p>Home to services like Immich for your precious photos, Linkwarden for organizing your bookmarks, and Rybbit for analytics. All self-hosted, all yours.</p>
+          </div>
+        </div>
+
+        <div class="card" data-reveal>
+          <div class="card-glow"></div>
+          <div class="card-border"></div>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32">
+                <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <h3>Swiss Precision (Sort Of)</h3>
+            <p>All servers are located in Switzerland and are compliant with Swiss Laws. Your data stays in one of the most privacy-respecting jurisdictions on Earth.</p>
+          </div>
+        </div>
+
+        <div class="card" data-reveal>
+          <div class="card-glow"></div>
+          <div class="card-border"></div>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3>Open Source Everything</h3>
+            <p>Using only open source tools. Because if we're going to be unreliable, at least we'll be transparent about it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll Text Reveal Section -->
+    <section class="text-reveal-section" id="text-reveal">
+      <div class="text-reveal-container">
+        <div class="text-reveal-content" id="reveal-text">
+          <p>In a world obsessed with uptime, we offer something different: <span class="highlight">unmatched suspense.</span></p>
+          <p>Will your files be there? Will the server respond? Nobody knows—not even us! Our impressive <span class="highlight">95% uptime</span> means there's always that thrilling 5% chance everything is gone.</p>
+          <p>Think of it as <span class="highlight">Russian roulette</span> for the digital age.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">Ruby Cloud</a>
+          <p class="footer-description">Your unreliable BUT extraordinarily fun cloud solution. Self-hosted, Swiss-based, and proudly chaotic.</p>
+          <div class="footer-social">
+            <a href="https://github.com" class="social-icon" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="mailto:hello@ruby.cloud" class="social-icon" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </a>
+          </div>
+          <p class="footer-copyright">© 2026 Ruby Cloud. All rights reserved (but probably not guaranteed).</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Services</h3>
+          <a href="#" class="footer-link">Immich</a>
+          <a href="#" class="footer-link">Linkwarden</a>
+          <a href="#" class="footer-link">Rybbit</a>
+          <a href="#" class="footer-link">Status Page</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+</Layout>
+
+<style>
+  /* Hero Section */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 400;
+    color: #d3d0cb;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-weight: 300;
+    color: #9FB1BC;
+    margin-top: 1.5rem;
+    max-width: 600px;
+  }
+
+  .hero-subtitle .highlight {
+    color: #d3d0cb;
+    font-weight: 600;
+  }
+
+  /* Cards Section */
+  .cards-section {
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    position: relative;
+  }
+
+  .card {
+    position: relative;
+    border-radius: 18px;
+    padding: 1px;
+    opacity: 0;
+    transform: translateY(40px);
+    overflow: hidden;
+  }
+
+  .card.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .card-border {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(159, 177, 188, 0.15) 0%,
+      rgba(159, 177, 188, 0.05) 50%,
+      rgba(159, 177, 188, 0.15) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    transition: background 0.3s ease;
+  }
+
+  .card-glow {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    background: radial-gradient(
+      500px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      rgba(159, 177, 188, 0.15),
+      transparent 40%
+    );
+  }
+
+  .card:hover .card-glow {
+    opacity: 1;
+  }
+
+  .card:hover .card-border {
+    background: linear-gradient(
+      135deg,
+      rgba(159, 177, 188, 0.4) 0%,
+      rgba(159, 177, 188, 0.15) 50%,
+      rgba(159, 177, 188, 0.4) 100%
+    );
+  }
+
+  .card-content {
+    position: relative;
+    background: rgba(35, 35, 36, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 17px;
+    padding: 2rem;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .card-icon {
+    color: #9FB1BC;
+    margin-bottom: 1rem;
+  }
+
+  .card h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #d3d0cb;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #8a9ba5;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Text Reveal Section */
+  .text-reveal-section {
+    min-height: 400vh;
+    position: relative;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .text-reveal-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    max-width: 1400px;
+  }
+
+  .text-reveal-content {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .text-reveal-content p {
+    margin: 0 0 1.5em 0;
+  }
+
+  .text-reveal-content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .text-reveal-content :global(.highlight) {
+    background-color: transparent;
+    padding: 0.05em 0.3em;
+    border-radius: 4px;
+    margin: 0 -0.1em;
+    transition: background-color 0.2s ease;
+  }
+
+  .text-reveal-content :global(.highlight.visible) {
+    background-color: #9FB1BC;
+  }
+
+  .text-reveal-content :global(.highlight.visible) :global(.word) {
+    color: #272728 !important;
+    opacity: 1 !important;
+  }
+
+  .text-reveal-content :global(.word) {
+    transition: color 0.2s ease, opacity 0.2s ease;
+    display: inline;
+  }
+
+  .text-reveal-content :global(.word.active) {
+    color: #d3d0cb;
+    opacity: 1;
+  }
+
+  .text-reveal-content :global(.word.preview) {
+    color: #4a4a4b;
+    opacity: 1;
+  }
+
+  .text-reveal-content :global(.word.hidden) {
+    color: transparent;
+    opacity: 0;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #1a1a1b;
+    padding: 60px 0 40px;
+    margin-top: 0;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+  }
+
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #d3d0cb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .footer-description {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .social-icon {
+    color: #666;
+    transition: color 0.2s ease;
+    text-decoration: none;
+  }
+
+  .social-icon:hover {
+    color: #9FB1BC;
+  }
+
+  .footer-copyright {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-column h3 {
+    color: #d3d0cb;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+  }
+
+  .footer-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+
+  .footer-link:hover {
+    color: #d3d0cb;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .text-reveal-container {
+      padding: 2rem;
+    }
+
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Card reveal animations
+  const cards = document.querySelectorAll('.card[data-reveal]');
+
+  cards.forEach((card, index) => {
+    gsap.to(card, {
+      scrollTrigger: {
+        trigger: card,
+        start: 'top 85%',
+        toggleActions: 'play none none reverse'
+      },
+      opacity: 1,
+      y: 0,
+      duration: 0.6,
+      delay: index * 0.1,
+      ease: 'power2.out'
+    });
+  });
+
+  // Card hover glow effect - only on cards themselves
+  const allCards = document.querySelectorAll('.card');
+
+  allCards.forEach((card) => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = (e as MouseEvent).clientX - rect.left;
+      const y = (e as MouseEvent).clientY - rect.top;
+
+      (card as HTMLElement).style.setProperty('--mouse-x', x + 'px');
+      (card as HTMLElement).style.setProperty('--mouse-y', y + 'px');
+    });
+  });
+
+  // Text reveal animation with progressive visibility
+  const textElement = document.getElementById('reveal-text');
+  if (textElement) {
+    const paragraphs = textElement.querySelectorAll('p');
+    const previewWindow = 5; // Number of words shown as gray preview
+    const allWords: string[] = [];
+
+    // Process each paragraph and wrap words in spans, preserving mark elements
+    paragraphs.forEach((p) => {
+      const newContent: string[] = [];
+
+      p.childNodes.forEach((node) => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          // Regular text node
+          const text = node.textContent || '';
+          const words = text.trim().split(/\s+/).filter(w => w.length > 0);
+          allWords.push(...words);
+          newContent.push(words.map(word => `<span class="word hidden">${word}</span>`).join(' '));
+        } else if (node.nodeType === Node.ELEMENT_NODE && (node as Element).classList.contains('highlight')) {
+          // Highlight element - wrap words inside it
+          const text = node.textContent || '';
+          const words = text.trim().split(/\s+/).filter(w => w.length > 0);
+          allWords.push(...words);
+          const wrappedWords = words.map(word => `<span class="word hidden">${word}</span>`).join(' ');
+          newContent.push(`<span class="highlight">${wrappedWords}</span>`);
+        }
+      });
+
+      p.innerHTML = newContent.join(' ');
+    });
+
+    const wordElements = textElement.querySelectorAll('.word');
+    const highlights = textElement.querySelectorAll('.highlight');
+
+    ScrollTrigger.create({
+      trigger: '.text-reveal-section',
+      start: 'top top',
+      end: 'bottom bottom',
+      scrub: 0.3,
+      onUpdate: (self) => {
+        const progress = self.progress;
+        const activeIndex = Math.floor(progress * allWords.length);
+
+        wordElements.forEach((word, index) => {
+          word.classList.remove('active', 'preview', 'hidden');
+
+          if (index <= activeIndex) {
+            // Already revealed - white
+            word.classList.add('active');
+          } else if (index <= activeIndex + previewWindow) {
+            // Preview window - gray
+            word.classList.add('preview');
+          } else {
+            // Not yet visible - hidden
+            word.classList.add('hidden');
+          }
+        });
+
+        // Update highlight visibility - show when first word inside is active
+        highlights.forEach((highlight) => {
+          const highlightWords = highlight.querySelectorAll('.word');
+          const anyActive = Array.from(highlightWords).some(w => w.classList.contains('active'));
+          if (anyActive) {
+            highlight.classList.add('visible');
+          } else {
+            highlight.classList.remove('visible');
+          }
+        });
+      }
+    });
+  }
+</script>
